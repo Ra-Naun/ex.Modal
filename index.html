@@ -4,14 +4,17 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Document</title>
-        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="./css/normalize.css" />
+        <link rel="stylesheet" href="./css/style.css" />
     </head>
     <body>
-        <div class="wrapper">
-            <header id="header" class="header lock-padding">
-                <div class="header__container container">
-                    <a href="" class="header__logo"> </a>
-                    <a href="#popup" class="header__phone popup_link">Попап 1</a>
+        <div class="wraper _container">
+            <header id="header" class="header">
+                <div class="header__container container lock-padding">
+                    <div class="subcontainer">
+                        <a href="" class="header__logo"> </a>
+                        <a href="#popup" class="header__phone popup_link">Попап 1</a>
+                    </div>
                 </div>
             </header>
             <div class="content">
@@ -67,7 +70,7 @@
                                 mollitia provident, dolorem voluptates id. Corporis, facere accusantium delectus unde deserunt ab consequatur quam nobis hic mollitia. Culpa reprehenderit iure eos at?
                             </p>
                             <p>
-                                <a class="popup_link" href="#popup_2"> Попап 2 </a>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit ex omnis voluptate molestiae corporis blanditiis nihil.
+                                <a href="#popup" class="popup_link">Попап 1 </a>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit ex omnis voluptate molestiae corporis blanditiis nihil.
                                 Amet tempore officiis provident atque error minima quibusdam sapiente odit ullam dolorem, nostrum quis. Hic officiis fugit inventore vitae neque consequatur quas
                                 maiores at facilis amet! Quis laboriosam saepe repellat excepturi beatae, nihil sint illum tenetur deleniti ratione, eveniet nobis placeat veritatis et repellendus.
                                 Culpa officia, doloremque, quasi reiciendis debitis quam at mollitia provident, dolorem voluptates id. Corporis, facere accusantium delectus unde deserunt ab
@@ -90,9 +93,9 @@
                     <a href="#header" class="popup_close close_popup">X</a>
                     <div class="popup__title">Это модальное окно 1</div>
                     <div class="popup__text">
-                        <a class="popup_link" href="#popup_2"> Попап 2 </a> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut, ad possimus blanditiis in illo voluptate aut doloremque eos
-                        unde accusamus qui sed aliquid nostrum mollitia amet perspiciatis. Eum, id cupiditate!Alias error beatae voluptate fugiat, deserunt vero facere quod nobis unde enim
-                        exercitationem quis ipsam hic, consequuntur distinctio dignissimos eos sapiente aliquid repellat. Repellendus laboriosam earum alias error voluptate facilis.
+                        <a href="#popup2" class="popup_link">Попап 2 </a> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut, ad possimus blanditiis in illo voluptate aut doloremque eos unde
+                        accusamus qui sed aliquid nostrum mollitia amet perspiciatis. Eum, id cupiditate!Alias error beatae voluptate fugiat, deserunt vero facere quod nobis unde enim exercitationem
+                        quis ipsam hic, consequuntur distinctio dignissimos eos sapiente aliquid repellat. Repellendus laboriosam earum alias error voluptate facilis. lorem1000
                     </div>
                 </div>
             </div>
@@ -102,15 +105,15 @@
             <div class="popup__body">
                 <div class="popup__content">
                     <a href="#header" class="popup_close close_popup">X</a>
-                    <div class="popup__title">Это модальное окно 1</div>
+                    <div class="popup__title">Это модальное окно 2</div>
                     <div class="popup__text">
-                        <a class="popup_link" href="#popup_2"> Попап 2 </a> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut, ad possimus blanditiis in illo voluptate aut doloremque eos
-                        unde accusamus qui sed aliquid nostrum mollitia amet perspiciatis. Eum, id cupiditate!Alias error beatae voluptate fugiat, deserunt vero facere quod nobis unde enim
-                        exercitationem quis ipsam hic, consequuntur distinctio dignissimos eos sapiente aliquid repellat. Repellendus laboriosam earum alias error voluptate facilis.
+                        <a class="popup_link" href="#popup"> Попап 1 </a> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut, ad possimus blanditiis in illo voluptate aut doloremque eos unde
+                        accusamus qui sed aliquid nostrum mollitia amet perspiciatis. Eum, id cupiditate!Alias error beatae voluptate fugiat, deserunt vero facere quod nobis unde enim exercitationem
+                        quis ipsam hic, consequuntur distinctio dignissimos eos sapiente aliquid repellat. Repellendus laboriosam earum alias error voluptate facilis.
                     </div>
                 </div>
             </div>
         </div>
-        <script src="main.js"></script>
+        <script src="./js/main.js"></script>
     </body>
 </html>

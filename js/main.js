@@ -1,6 +1,6 @@
 //for images vertical-align: top; prevents from phantom bottom paddings
 
-const popupLinks = document.querySelectorAll(".popup-link");
+const popupLinks = document.querySelectorAll(".popup_link");
 const body = document.querySelector("body");
 const lockPadding = document.querySelectorAll(".lock-padding"); //for position:fixed elements
 
@@ -19,7 +19,7 @@ if (popupLinks.length > 0) {
         });
     }
 }
-const popupCloseIcon = document.querySelectorAll(".close-popup");
+const popupCloseIcon = document.querySelectorAll(".close_popup");
 if (popupCloseIcon.length > 0) {
     for (let index = 0; index < popupCloseIcon.length; index++) {
         const el = popupCloseIcon[index];
@@ -57,11 +57,11 @@ function popupClose(popupActive, doUnclock = true) {
 }
 
 function bodyLock() {
-    const lockPaddingValue = window.innerWidth - document.querySelector(".wrapper").offsetWidth + "px";
+    const lockPaddingValue = window.innerWidth - document.querySelector(".wraper").offsetWidth + "px";
     if (lockPadding.length > 0) {
         for (let index = 0; index < lockPadding.length; index++) {
             const el = lockPadding[index];
-            el.getElementsByClassName.paddingRight = lockPaddingValue;
+            el.style.paddingRight = lockPaddingValue;
         }
     }
     body.style.paddingRight = lockPaddingValue; //body width without scroll

@@ -110,6 +110,7 @@ p {
 
 .content__image img {
     min-width: 100%;
+    border-radius: 50%;
 }
 
 .content__subtitle {
